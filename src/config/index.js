@@ -1,6 +1,6 @@
 const config = {
     // URL base del servidor
-    socketServerUrl: process.env.NEXT_PUBLIC_SOCKET_URL || 'https://juego-memoria-servidor-soz8.onrender.com',
+    socketServerUrl: process.env.NEXT_PUBLIC_SOCKET_URL || 'https://juego-memoria-servidor2.onrender.com/',
     
     // Configuración de Socket.io
     socketOptions: {

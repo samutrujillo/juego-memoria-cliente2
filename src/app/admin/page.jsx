@@ -21,10 +21,10 @@ export default function Game() {
       
       // Crear 2 fichas ganadoras y 2 perdedoras para esta hilera
       for (let i = 0; i < 2; i++) {
-        rowTiles.push({ value: 15000, revealed: false });
+        rowTiles.push({ value: 30000, revealed: false });
       }
       for (let i = 0; i < 2; i++) {
-        rowTiles.push({ value: -15000, revealed: false });
+        rowTiles.push({ value: -30000, revealed: false });
       }
       
       // Mezclarlas

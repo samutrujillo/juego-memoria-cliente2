@@ -43,12 +43,12 @@ export default function Game() {
     for (let row = 0; row < 4; row++) {
       const rowTiles = [];
 
-      // Crear 2 fichas ganadoras (+15000) y 2 perdedoras (-15000) para esta hilera
+      // Crear 2 fichas ganadoras (+30000) y 2 perdedoras (-30000) para esta hilera
       for (let i = 0; i < 2; i++) {
-        rowTiles.push({ value: 15000, revealed: false });  // Asegurarse que es positivo
+        rowTiles.push({ value: 30000, revealed: false });  // Asegurarse que es positivo
       }
       for (let i = 0; i < 2; i++) {
-        rowTiles.push({ value: -15000, revealed: false }); // Asegurarse que es negativo
+        rowTiles.push({ value: -30000, revealed: false }); // Asegurarse que es negativo
       }
 
       // Mezclarlas
