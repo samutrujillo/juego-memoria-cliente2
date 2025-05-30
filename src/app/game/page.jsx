@@ -1243,10 +1243,11 @@ socket.on('passwordChanged', ({ message }) => {
           )}
         </div>
 
-        {/* Mesa y turno en la parte superior */}
+       {/* Mesa y turno en la parte superior */}
         <div className="game-status-bar">
           <div className="table-info">
             Mesa {currentTableNumber}
+          <div className="table-amount">30.000</div>
           </div>
           <div className={`turn-status ${isYourTurn ? 'your-turn-indicator' : 'wait-turn-indicator'}`}>
             {isYourTurn ? "Tu turno" : "Espere su turno"}
