@@ -109,6 +109,8 @@ export default function Home() {
 
   return (
     <main className="login-page">
+      <div className="title-container">
+        <h1 className="vip-title">MESA VIP 30.000</h1></div>
       <div className="login-container">
         <h2>Iniciar Sesión</h2>
         {error && <div className="error-message">{error}</div>}
@@ -141,15 +143,6 @@ export default function Home() {
           Ir al inicio
         </a>
         </form>
-      </div>
-      
-      {/* Contador de puntos colocado independientemente debajo del contenedor del formulario */}
-      <div style={scoreContainerStyle}>
-        <div style={scoreTextStyle}>
-          <span style={positiveScoreStyle}>30.000</span>
-          <span style={separatorStyle}>/</span>
-          <span style={negativeScoreStyle}>- 30.000</span>
-        </div>
       </div>
     </main>
   );
